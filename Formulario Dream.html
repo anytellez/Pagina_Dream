@@ -1,0 +1,101 @@
+<HTML>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<title>Dream</title>
+<link rel="shortcut icon" href="img/Tienda Dream.png">
+<style>
+h1{text-align: center; margin-top: 0.5em; font-family:"Baskerville Old Face";font-size:4em;}
+.container{font-weight: bold;border-radius: 8px;padding-top: 1em; padding-bottom:2em;margin-left:7em;margin-right:10em;margin-top:2em;
+}
+.logo{ float: left; margin-left: 1em; margin-bottom: 4em; margin-top: 1.5em;
+}
+.container1 {margin-top:2em;background-color: #F6FAF9;padding:2em;margin-left:7em;margin-right:6em;margin-bottom:2em}
+</style>
+</head>
+<BODY>
+<div class="container" style="background-color: #FFF8E1">
+<div class="logo">
+<img src="img/Tienda Dream.png" width="80" height="80"/></div>
+<h1>TIENDA DREAM</h1>
+</div>
+<div class="container1">
+<center>
+<h2>FORMULARIO</h2>
+<FORM ACTION="Datos.php" METHOD="POST">
+ <div class="row">
+    <div class="col">
+<div id="Text">
+   
+   Nombre(s): 
+   <p>
+   <INPUT TYPE="text" NAME="nombre"></p>
+    
+	Apellidos: 
+   <p>
+   <INPUT TYPE="text" NAME="apellidos"></p>
+   </div>
+    
+	Teléfono: 
+   <p>
+   <INPUT TYPE="text" NAME="telefono"></p>
+   
+    Dirección: 
+   <p>
+   <INPUT TYPE="text" NAME="direccion"></p>
+   
+    Correo Eléctronico: 
+   <p>
+   <INPUT TYPE="text" NAME="correo"></p>
+   
+<div id="Selección simple">
+¿Te gusto la página?
+<SELECT NAME="pagina">
+   <OPTION VALUE="">
+   <OPTION VALUE="Sí">Sí
+   <OPTION VALUE="No">No
+</SELECT>
+</div>
+   </div>
+
+<div class="col">
+ <div id="Textarea">
+¿Qué marcas de maquillajes utilizas?
+</br>
+<TEXTAREA COLS="40" ROWS="2.5" NAME="marcas">
+</TEXTAREA>
+</br>
+</br>
+¿Qué tipo de maquillaje buscas?
+</br>
+<TEXTAREA COLS="40" ROWS="2.5" NAME="maquillaje">
+</TEXTAREA>
+</div>
+</br>
+<div id="Selección simple">
+¿Te gustaría participar en rifas?
+<SELECT NAME="rifas">
+   <OPTION VALUE="">
+   <OPTION VALUE="Sí">Sí
+   <OPTION VALUE="No">No
+</SELECT>
+</div>
+</TEXTAREA>
+</br>
+¿Qué observación tienes de la página?
+</br>
+<TEXTAREA COLS="40" ROWS="2.5" NAME="observaciones">
+</TEXTAREA>
+</br>
+</br>
+<div id="Button-submit">
+  <INPUT TYPE="submit" class="btn btn-primary mb-2" NAME="enviar" VALUE="Enviar">
+</div>
+</div>
+</div>
+   </div>
+   </div>
+</form>
+</center>
+</body>
+</html>

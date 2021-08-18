@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dream</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="shortcut icon" href="img/Tienda Dream.png">
+
+<style>
+img{ float: left; margin-left: 1em; margin-bottom: 4em; margin-top: 1.5em;
+}
+h1{text-align: center; margin-top: 0.5em; font-family:"Baskerville Old Face";font-size:4em;}
+.container{font-weight: bold;border-radius: 8px;margin-top: 1em; margin-bottom:1em;padding-bottom: 2em;border: solid 1px black;}
+.container-fluid{padding:2em;padding-top:0.5em;}
+.container.info{
+padding-top: 1em; border-left-style: white;1em;margin-left:7em;margin-right:10em;text-align:center;font-size: 16px;}
+body { background-color: #F6FAF9; }
+pre{text-align:center;font-family:Avenir Next LT Pro; font-size: 20px;}
+</style>
+<body>
+<div class="container-fluid" style="background-color: #FFF8E1">
+<img src="img/Tienda Dream.png" width="80" height="80"/>
+<h1>TIENDA DREAM</h1>
+</div>
+<div class="container info" style="background-color:white" >
+<pre>
+Quieres participar en nuestro concurso de rifas, que esperas tomate una foto e enviala justo en este 
+espacio para poder participar, la imagen tiene que mostrar como utilizas nuestros productos y nosotros
+seleccionaremos a la mejor imagen, si eres seleccionada por nosotros te enviaremos un mensaje atraves 
+de tu correo electronico para avisarte que has sido la ganadora de este concurso.
+Donde podrás llevarte grandes premios como:
+>Bolsas
+>Accesorios
+>Ropa
+>Artículos de belleza
+Y mucho más, no te pierdas de está gran oportunidad.<form action="upload.php" method="post" enctype="multipart/form-data">
+       Selecciona tú imagen en este apartado:</br></pre>
+        <input type="file" name="image"/>
+        <input type="submit" name="submit" value="Enviar"/>
+    </form>
+</body>
+</html>

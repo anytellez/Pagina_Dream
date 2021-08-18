@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dream</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="shortcut icon" href="img/Tienda Dream.png">
+<style>
+h1{text-align: center; margin-top: 0.5em; font-family:"Baskerville Old Face";font-size:4em;}
+.container{font-weight: bold;border-radius: 8px;padding-top: 1em; padding-bottom:2em;margin-left:7em;margin-right:10em;margin-top:2em;
+}
+.container1{margin-left:30em; margin-right:30em;font-weight: bold;border-radius: 8px;padding-top: 1em; padding-bottom:2em;}
+.logo{ float: left; margin-left: 1em; margin-bottom: 4em; margin-top: 1.5em;
+}
+</style>
+</head>
+<body>
+<div class="container" style="background-color: #FFF8E1">
+<div class="logo">
+<img src="img/Tienda Dream.png" width="80" height="80"/></div>
+<h1>TIENDA DREAM</h1>
+</div>
+<div class="container1">
+<form class="form-inline" id="miformulario" ACTION="Registro de datos.php" METHOD="POST">
+   <label class="sr-only" for="usuario">Nombre</label>
+   <input type="text" class="form-control mb-2 mr-sm-2" id="nombre" placeholder="Usuario" required name="nombre">
+      <label class="sr-only" for="gmail">Gmail</label>
+   <input type="text" class="form-control mb-2 mr-sm-2" id="nombre" placeholder="Gmail" required name="gmail">
+   <label class="sr-only" for="contraseña" >Contraseña</label>
+   <div class="input-group mb-2 mr-sm-2">                  
+   <input type="password" class="form-control" id="contraseña" placeholder="Contraseña" required name="contraseña">
+   </div>
+   <div class="form-check mb-2 mr-sm-2">
+      <input class="form-check-input" type="checkbox" id="recordar">
+      <label class="form-check-label" for="recordar">
+      Recordar
+      </label>
+   </div>
+   <button type="submit" class="btn btn-primary mb-2">Aceptar</button>
+</form>
+</div>
+</body>
+</html> 
